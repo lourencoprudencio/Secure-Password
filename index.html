@@ -1,0 +1,51 @@
+<!DOCTYPE html> <!-- Declaration of the document type -->
+<html lang="pt"> <!-- Start of the HTML document, specifying the language as Portuguese -->
+<head>
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets the viewport for responsive design -->
+    <title>Nova Password Segura</title> <!-- Title of the webpage that appears in the browser tab -->
+    <link rel="icon" href="logo.png" type="image/png"> <!-- Link to the favicon for the webpage -->
+    <link rel="stylesheet" href="NovaGame.css"> <!-- Link to the external CSS stylesheet for styling -->
+    <style>
+        .logo-container { /* Styles for the logo container */
+            text-align: center; /* Centers the content inside the container */
+            margin-bottom: 20px; /* Adds space below the logo */
+        }
+        .logo-container img { /* Styles for the image within the logo container */
+            max-width: 150px; /* Limits the width of the logo image */
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> <!-- Main container for the content -->
+        <div class="logo-container"> <!-- Container for the logo -->
+            <img src="logo.png" alt="Logotipo"> <!-- Image element for the logo with alternative text -->
+        </div>
+        <h1>NOVA Password Segura</h1> <!-- Main heading of the page -->
+        <label class="switch"> <!-- Label for the language toggle switch -->
+            <input type="checkbox" id="languageToggle"> <!-- Checkbox input for toggling language -->
+            <span class="slider round"></span> <!-- Span element styled as a slider for the toggle -->
+        </label>
+        <span id="languageLabel">English</span> <!-- Text element to indicate the current language -->
+        <input type="text" id="username" placeholder="Escreva o seu nome" required> <!-- Input field for the username -->
+        <input type="date" id="birthdate" class="styled-input" required> <!-- Input field for the birthdate -->
+        <input type="password" id="password" placeholder="Escolha uma password" required> <!-- Input field for the password -->
+        <button id="checkBtn">Verificar</button> <!-- Button to check password criteria -->
+        <ul id="criteriaList"> <!-- Unordered list for displaying password criteria -->
+            <li id="length">🔴 Pelo menos 14 caracteres</li> <!-- List item for password length requirement -->
+            <li id="special">🔴 Pelo menos um caractere especial (ex.: @, #, %, &, ?, !)</li> <!-- Special character requirement -->
+            <li id="letter">🔴 Contém pelo menos uma letra</li> <!-- Requirement for at least one letter -->
+            <li id="number">🔴 Pelo menos um número</li> <!-- Requirement for at least one number -->
+            <li id="uppercase">🔴 Inclui letras maiúsculas e minúsculas</li> <!-- Requirement for uppercase and lowercase letters -->
+            <li id="noName">🔴 Não pode conter sequências de letras do nome inserido</li> <!-- Check against name sequences -->
+            <li id="noCommonSequences">🔴 Evite sequências comuns (ex.: 123, ABC)</li> <!-- Avoid common sequences -->
+            <li id="noBirthdate">🔴 Não pode conter sequências da data de nascimento</li> <!-- Check against birthdate sequences -->
+        </ul>
+        <p id="note" class="note"><strong>Nota:</strong> 👀Evite usar passwords semelhantes às anteriores.</p> <!-- Note about password reuse -->
+        <p id="resultMessage"></p> <!-- Paragraph for displaying result messages -->
+        <p id="successMessage" style="display: none; font-size: 1.5em; color: #28a745; margin-top: 20px;"></p> <!-- Hidden paragraph for success messages -->
+        <button id="copyBtn" style="display: none;">Copiar password</button> <!-- Hidden button for copying the password -->
+    </div>
+    <script src="NovaGame.js"></script> <!-- Link to the external JavaScript file for functionality -->
+</body>
+</html>

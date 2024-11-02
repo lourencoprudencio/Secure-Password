@@ -1,0 +1,193 @@
+* { /* Selects all elements */
+    box-sizing: border-box; /* Sets box-sizing to border-box for all elements, including padding and border in width and height */
+    font-family: Arial, sans-serif; /* Sets the font family for all elements to Arial, with a fallback to sans-serif */
+}
+
+body { /* Styles for the body element */
+    display: flex; /* Uses flexbox layout */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    min-height: 100vh; /* Sets a minimum height of 100% of the viewport height */
+    background: linear-gradient(to right, #3a1c71, #d76d77, #ffaf7b); /* Sets a linear gradient background */
+    margin: 0; /* Removes default margin */
+}
+
+.container { /* Styles for the main container */
+    background: #fff; /* Sets the background color to white */
+    padding: 30px; /* Adds padding inside the container */
+    border-radius: 10px; /* Rounds the corners of the container */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+    max-width: 450px; /* Sets a maximum width for the container */
+    width: 100%; /* Allows the container to take full width available */
+    text-align: center; /* Centers the text inside the container */
+    animation: fadeIn 1s ease; /* Adds a fade-in animation to the container */
+}
+
+h1 { /* Styles for the main heading */
+    color: #333; /* Sets the text color to dark gray */
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+
+input[type="text"], /* Styles for text input fields */
+input[type="password"], /* Styles for password input fields */
+input[type="date"] { /* Styles for date input fields */
+    width: 100%; /* Sets the width to 100% */
+    padding: 12px; /* Adds padding inside the input fields */
+    margin: 10px 0; /* Adds vertical margin */
+    border: 1px solid #ddd; /* Sets a light gray border */
+    border-radius: 5px; /* Rounds the corners of the input fields */
+    transition: border 0.3s ease; /* Adds a transition effect for border changes */
+}
+
+input[type="text"]:focus, /* Styles when text input is focused */
+input[type="password"]:focus, /* Styles when password input is focused */
+input[type="date"]:focus { /* Styles when date input is focused */
+    border: 1px solid #007bff; /* Changes the border color to blue when focused */
+}
+
+button { /* Styles for buttons */
+    width: 100%; /* Sets the width to 100% */
+    padding: 12px; /* Adds padding inside the button */
+    margin: 10px 0; /* Adds vertical margin */
+    border-radius: 5px; /* Rounds the corners of the button */
+    border: none; /* Removes the default border */
+    color: #fff; /* Sets the text color to white */
+    font-weight: bold; /* Makes the text bold */
+    background: #007bff; /* Sets the background color to blue */
+    cursor: pointer; /* Changes the cursor to pointer on hover */
+    transition: background 0.3s ease; /* Adds a transition effect for background changes */
+}
+
+button:hover { /* Styles when the button is hovered over */
+    background: #0056b3; /* Changes the background color to a darker blue */
+}
+
+#criteriaList { /* Styles for the criteria list */
+    list-style-type: none; /* Removes default list styling */
+    padding: 0; /* Removes padding */
+    margin: 20px 0 10px; /* Adds vertical margin */
+    text-align: left; /* Aligns text to the left */
+    animation: slideIn 0.5s ease forwards; /* Adds a slide-in animation */
+}
+
+#criteriaList li { /* Styles for list items in the criteria list */
+    opacity: 0; /* Sets initial opacity to 0 (hidden) */
+    transform: translateX(-10px); /* Offsets the list item to the left */
+    animation: fadeSlideIn 0.4s ease forwards; /* Adds a fade and slide-in animation */
+    position: relative; /* Sets the position to relative for positioning purposes */
+    transition: color 0.3s ease; /* Adds a transition effect for color changes */
+    font-size: 0.9em; /* Sets the font size slightly smaller than normal */
+}
+
+#criteriaList li.completed { /* Styles for completed list items */
+    color: #28a745; /* Sets the text color to green */
+    text-decoration: line-through; /* Adds a line-through effect */
+    text-decoration-color: #28a745; /* Sets the color of the line-through to green */
+    text-decoration-thickness: 2px; /* Sets the thickness of the line-through */
+}
+
+.note { /* Styles for notes */
+    font-size: 0.9em; /* Sets the font size slightly smaller than normal */
+    color: #555; /* Sets the text color to a medium gray */
+    margin-top: 10px; /* Adds space above the note */
+}
+
+#copyBtn { /* Styles for the copy button */
+    background-color: #28a745; /* Sets the background color to green */
+}
+
+#copyBtn:hover { /* Styles for the copy button when hovered over */
+    background-color: #218838; /* Changes the background to a darker green */
+}
+
+@keyframes fadeIn { /* Defines a fade-in animation */
+    from { /* Starting state */
+        opacity: 0; /* Fully transparent */
+    }
+    to { /* Ending state */
+        opacity: 1; /* Fully opaque */
+    }
+}
+
+@keyframes slideIn { /* Defines a slide-in animation */
+    from { /* Starting state */
+        transform: translateY(-20px); /* Starts 20px above */
+    }
+    to { /* Ending state */
+        transform: translateY(0); /* Ends at the original position */
+    }
+}
+
+@keyframes fadeSlideIn { /* Defines a fade and slide-in animation */
+    0% { /* Starting state */
+        opacity: 0; /* Fully transparent */
+        transform: translateX(-10px); /* Starts 10px to the left */
+    }
+    100% { /* Ending state */
+        opacity: 1; /* Fully opaque */
+        transform: translateX(0); /* Ends at the original position */
+    }
+}
+
+@keyframes showMessage { /* Defines an animation for showing messages */
+    from { /* Starting state */
+        opacity: 0; /* Fully transparent */
+        transform: translateY(-20px); /* Starts 20px above */
+    }
+    to { /* Ending state */
+        opacity: 1; /* Fully opaque */
+        transform: translateY(0); /* Ends at the original position */
+    }
+}
+
+#successMessage { /* Styles for the success message */
+    display: none; /* Hides the message by default */
+    animation: showMessage 1s ease forwards; /* Adds a show message animation */
+}
+
+/* Switch Button Styles */
+.switch { /* Styles for the toggle switch container */
+    position: relative; /* Positions the switch relative to its normal position */
+    display: inline-block; /* Displays the switch inline */
+    width: 60px; /* Sets the width of the switch */
+    height: 34px; /* Sets the height of the switch */
+    margin-bottom: 20px; /* Adds space below the switch */
+}
+
+.switch input { /* Styles for the input inside the switch */
+    opacity: 0; /* Hides the checkbox input */
+    width: 0; /* Sets width to 0 */
+    height: 0; /* Sets height to 0 */
+}
+
+.slider { /* Styles for the slider of the switch */
+    position: absolute; /* Positions the slider absolutely */
+    cursor: pointer; /* Changes the cursor to pointer on hover */
+    top: 0; /* Aligns the slider to the top */
+    left: 0; /* Aligns the slider to the left */
+    right: 0; /* Aligns the slider to the right */
+    bottom: 0; /* Aligns the slider to the bottom */
+    background-color: #ccc; /* Sets the background color to light gray */
+    transition: .4s; /* Adds a transition effect for background changes */
+    border-radius: 34px; /* Rounds the corners of the slider */
+}
+
+.slider:before { /* Styles for the before pseudo-element of the slider */
+    position: absolute; /* Positions the element absolutely */
+    content: ""; /* Empty content */
+    height: 26px; /* Sets the height of the circle */
+    width: 26px; /* Sets the width of the circle */
+    left: 4px; /* Offsets the circle to the right */
+    bottom: 4px; /* Offsets the circle from the bottom */
+    background-color: white; /* Sets the background color to white */
+    transition: .4s; /* Adds a transition effect for movement */
+    border-radius: 50%; /* Makes the circle shape */
+}
+
+input:checked + .slider { /* Styles the slider when the checkbox is checked */
+    background-color: #2196F3; /* Changes the background color to blue */
+}
+
+input:checked + .slider:before { /* Styles the circle when the checkbox is checked */
+    transform: translateX(26px); /* Moves the circle to the right */
+}
