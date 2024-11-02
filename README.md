@@ -8,7 +8,7 @@ Language Support: The application is available in both English and Portuguese, m
 Clipboard Functionality: Easily copy your validated password to your clipboard for quick use.
 This tool is a part of our initiative to promote better security practices and raise awareness about the importance of strong passwords.
 
-Try it out at: NOVA Secure Password
+Try it out at: NOVA Secure Password [ https://novasecurepassword.netlify.app/ ]
 
 Join us in making our online presence safer!
 
@@ -23,6 +23,6 @@ Suporte a Idiomas: A aplicação está disponível em inglês e português, torn
 Funcionalidade de Copiar para a Área de Transferência: Copie facilmente a sua senha validada para a área de transferência para uma utilização rápida.
 Esta ferramenta faz parte da nossa iniciativa para promover melhores práticas de segurança e aumentar a consciência sobre a importância de senhas fortes.
 
-Experimente em: NOVA Password Segura
+Experimente em: NOVA Password Segura [ https://novasecurepassword.netlify.app/ ]
 
 Junte-se a nós para tornar a nossa presença online mais segura!
