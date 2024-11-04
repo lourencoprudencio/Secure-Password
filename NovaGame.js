@@ -1,4 +1,5 @@
 // https://github.com/lourencoprudencio/Nova-Secure-Password-Game
+
 const passwordInput = document.getElementById("password");
 const usernameInput = document.getElementById("username");
 const resultMessage = document.getElementById("resultMessage");
@@ -6,6 +7,35 @@ const copyBtn = document.getElementById("copyBtn");
 const successMessage = document.getElementById("successMessage");
 const criteriaListItems = document.querySelectorAll("#criteriaList li");
 const charCounter = document.getElementById("charCounter");
+const generatePasswordBtn = document.getElementById("generatePasswordBtn");
+
+generatePasswordBtn.addEventListener("click", generatePassword);
+
+function generatePassword() {
+    const length = 14;
+    const specialCharacters = "@#%&?!";
+    const numbers = "0123456789";
+    const lowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
+    const uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    
+    let password = "";
+
+    password += specialCharacters[Math.floor(Math.random() * specialCharacters.length)];
+    password += numbers[Math.floor(Math.random() * numbers.length)];
+    password += lowercaseLetters[Math.floor(Math.random() * lowercaseLetters.length)];
+    password += uppercaseLetters[Math.floor(Math.random() * uppercaseLetters.length)];
+
+    const allCharacters = specialCharacters + numbers + lowercaseLetters + uppercaseLetters;
+    while (password.length < length) {
+        password += allCharacters[Math.floor(Math.random() * allCharacters.length)];
+    }
+
+    password = password.split('').sort(() => 0.5 - Math.random()).join('');
+
+    passwordInput.value = password;
+    updateCharCounter();
+    checkPasswordCriteria();
+}
 
 passwordInput.addEventListener("input", () => {
     charCounter.textContent = `${passwordInput.value.length} caracteres`;
@@ -90,7 +120,6 @@ copyBtn.addEventListener("click", () => {
     });
 });
 
-// Language Toggle
 const languageToggle = document.getElementById("languageToggle");
 const languageLabel = document.getElementById("languageLabel");
 
@@ -117,6 +146,8 @@ function updateLanguage(isEnglish) {
         document.getElementById('noCommonSequences').textContent = '🔴 Avoid common sequences (e.g.: 123, ABC)';
         document.getElementById('note').innerHTML = '<strong>Note:</strong> 👀Avoid using previous similar passwords.';
         document.getElementById('note').innerHTML = '<strong>Note:</strong> 👀Avoid using previous similar passwords.<br>📅Avoid using dates associated with yourself (e.g., birth, start of contract).';
+        document.getElementById('generatePasswordBtn').textContent = 'Generate Password';
+        document.getElementById('instruction').textContent = "Don't know what password to choose? Enter your name and click 'Generate password' and then 'Check'.";
         updateCharCounter();
     } else {
         document.querySelector('h1').textContent = 'NOVA Password Segura';
@@ -135,6 +166,8 @@ function updateLanguage(isEnglish) {
         document.getElementById('noCommonSequences').textContent = '🔴 Evite sequências comuns (ex.: 123, ABC)';
         document.getElementById('note').innerHTML = '<strong>Nota:</strong> 👀Evite usar passwords semelhantes às anteriores.';
         document.getElementById('note').innerHTML = '<strong>Nota:</strong> 👀Evite usar passwords semelhantes às anteriores.<br>📅Evite usar datas associadas a si (ex.: Nascimento, início de contrato).';
+        document.getElementById('generatePasswordBtn').textContent = 'Gerar Password';
+        document.getElementById('instruction').textContent = "Não sabe que password escolher? Escreva o nome e clique em 'Gerar password' e depois 'Verificar'.";
         updateCharCounter();
     }
 }
@@ -145,7 +178,7 @@ function getMessage(key) {
         invalidPassword: languageToggle.checked ? '❌Password does not meet all criteria.' : '❌ A password não cumpre todos os critérios.',
         copiedPassword: languageToggle.checked ? '🗒️ Password copied!' : '🗒️ Password copiada!',
         copyError: languageToggle.checked ? 'Failed to copy password.' : 'Erro ao copiar a password.',
-        successMessage: languageToggle.checked ? '🎉 congratulations, the password is valid! 🎉' : '🎉 Parabéns, a password é válida! 🎉'
+        successMessage: languageToggle.checked ? '🎉 Congratulations, the password is valid! 🎉' : '🎉 Parabéns, a password é válida! 🎉'
     };
     return messages[key];
 }

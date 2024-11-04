@@ -1,7 +1,16 @@
 /* https://github.com/lourencoprudencio/Nova-Secure-Password-Game */
+
 * {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo-container img {
+    max-width: 150px;
 }
 
 body {
@@ -61,6 +70,14 @@ button {
 
 button:hover {
     background: #0056b3;
+}
+#generatePasswordBtn {
+    background-color: #ffc107;
+    color: #333;
+}
+
+#generatePasswordBtn:hover {
+    background-color: #e0a800;
 }
 
 #criteriaList {

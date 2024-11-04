@@ -1,4 +1,5 @@
 <!-- https://github.com/lourencoprudencio/Nova-Secure-Password-Game -->
+
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -7,20 +8,12 @@
     <title>Nova Password Segura</title>
     <link rel="icon" href="logo.png" type="image/png">
     <link rel="stylesheet" href="NovaGame.css">
-    <style>
-        .logo-container {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .logo-container img {
-            max-width: 150px;
-        }
-    </style>
 </head>
 <body>
     <div class="container">
         <div class="logo-container">
-            <img src="logo.png" alt="Logotipo">
+            <a href="https://www.novasbe.unl.pt/" target="_blank">
+                <img src="logo.png" alt="Logotipo"></a>
         </div>
         <h1>NOVA Password Segura</h1>
         <label class="switch">
@@ -44,6 +37,10 @@
         <p id="note" class="note"><strong>Nota:</strong> 👀Evite usar passwords semelhantes às anteriores.
         <br>📅Evite usar datas associadas a si (ex.: Nascimento, início de contrato).
         </p>
+        <p class="note" style="font-weight: bold; color: #000;" id="instruction">
+            Não sabe que password escolher? Escreva o nome e clique em "Gerar password" e depois "Verificar".
+        </p>
+        <button id="generatePasswordBtn">Gerar Password</button>
         <p id="resultMessage"></p>
         <p id="successMessage" style="display: none; font-size: 1.5em; color: #28a745; margin-top: 20px;"></p>
         <button id="copyBtn" style="display: none;">Copiar password</button>
