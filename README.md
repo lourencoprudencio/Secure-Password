@@ -1,4 +1,6 @@
-Project Description: NOVA Secure Password
+Project Description: 
+
+NOVA Secure Password
 Welcome to the NOVA Secure Password project! This web application is designed to encourage members of the NOVA School of Business and Economics (NOVA SBE) community to create strong and secure passwords. With the increasing importance of cybersecurity, it's vital to use passwords that protect your personal information and accounts effectively.
 
 Features:
