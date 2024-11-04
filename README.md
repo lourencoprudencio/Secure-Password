@@ -1,18 +1,12 @@
 Project Description: 
 
-NOVA Secure Password
-Welcome to the NOVA Secure Password project! This web application is designed to encourage members of the NOVA School of Business and Economics (NOVA SBE) community to create strong and secure passwords. With the increasing importance of cybersecurity, it's vital to use passwords that protect your personal information and accounts effectively.
+Welcome to the NOVA secure password a project! This web application was created to encourage members of the NOVA School of Business and Economics (NOVA SBE) community to create strong and secure passwords. With the growing importance of cybersecurity, it is essential to use passwords that effectively protect your personal information and accounts.
 
-Features:
-Password Strength Checker: Enter your desired password, and the app will evaluate its strength based on various criteria, including length, complexity, and the presence of common sequences.
-Real-time Feedback: Get immediate feedback on password validity with visual indicators and suggestions for improvement.
-Language Support: The application is available in both English and Portuguese, making it accessible to a wider audience within the NOVA SBE community.
-Clipboard Functionality: Easily copy your validated password to your clipboard for quick use.
-This tool is a part of our initiative to promote better security practices and raise awareness about the importance of strong passwords.
+Features: Password Protection Level/Quality Checker: Enter your desired password and the application will assess its level of protection/quality based on various criteria, including length, complexity and the presence of common sequences. Real-Time Feedback: Receive immediate feedback on password validity, with visual indicators and suggestions for improvement. Language Support: The application is available in English and Portuguese, making it accessible to a wider audience within the NOVA SBE community. Copy to Clipboard functionality: Easily copy your validated password to the clipboard for quick use. This tool is part of our initiative to promote better security practices and raise awareness about the importance of strong passwords.
 
-Try it out at: NOVA Secure Password [ https://novasecurepassword.netlify.app/ ]
+Try it out at: NOVA Password Segura [ https://novasecurepassword.netlify.app/ ]
 
-Join us in making our online presence safer!
+Join us in making our online presence more secure!
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
