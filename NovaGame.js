@@ -13,7 +13,7 @@ generatePasswordBtn.addEventListener("click", generatePassword);
 
 function generatePassword() {
     const length = 14;
-    const specialCharacters = "@#%&?!";
+    const specialCharacters = "!\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
     const numbers = "0123456789";
     const lowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
     const uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -55,7 +55,7 @@ function checkPasswordCriteria() {
     const lengthValid = password.length >= 14;
     toggleCriteria("length", lengthValid);
 
-    const specialValid = /[@#%&?!]/.test(password);
+    const specialValid = /[!"#$%&'()*+,\-./:;<=>?@[\]^_`{|}~]/s.test(password);
     toggleCriteria("special", specialValid);
 
     const letterValid = /[a-zA-Z]/.test(password);
