@@ -144,7 +144,7 @@ function getMessage(key) {
         invalidPassword: languageToggle.checked ? '❌Password does not meet all criteria.' : '❌ A password não cumpre todos os critérios.',
         copiedPassword: languageToggle.checked ? '🗒️ Password copied!' : '🗒️ Password copiada!',
         copyError: languageToggle.checked ? 'Failed to copy password.' : 'Erro ao copiar a password.',
-        successMessage: languageToggle.checked ? '🎉 congratulations, the password is valid! 🎉' : '🎉 PARABÉNS, a password é válida! 🎉'
+        successMessage: languageToggle.checked ? '🎉 congratulations, the password is valid! 🎉' : '🎉 Parabéns, a password é válida! 🎉'
     };
     return messages[key];
 }
