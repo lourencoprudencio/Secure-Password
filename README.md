@@ -1,6 +1,6 @@
 Project Description:
 
-Welcome to the NOVA Secure Password project! This web application was created to encourage members of the NOVA School of Business and Economics (NOVA SBE) community to create strong and secure passwords. With the growing importance of cybersecurity, it is essential to use passwords that effectively protect your personal information and accounts.
+Welcome to the NOVA Secure Password project! This web application was created to encourage members of the NOVA School of Business and Economics (NOVA SBE) [ https://www.novasbe.unl.pt/ ] community to create strong and secure passwords. With the growing importance of cybersecurity, it is essential to use passwords that effectively protect your personal information and accounts.
 
 Features:
 
@@ -22,7 +22,7 @@ Join us in making our online presence more secure!
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Bem-vindo ao projeto NOVA Password Segura! Esta aplicação web foi criada para incentivar os membros da comunidade da NOVA School of Business and Economics (NOVA SBE) a criar senhas fortes e seguras. Com a crescente importância da cibersegurança, é fundamental utilizar senhas que protejam eficazmente a sua informação pessoal e contas.
+Bem-vindo ao projeto NOVA Password Segura! Esta aplicação web foi criada para incentivar os membros da comunidade da NOVA School of Business and Economics (NOVA SBE) [ https://www.novasbe.unl.pt/ ] a criar senhas fortes e seguras. Com a crescente importância da cibersegurança, é fundamental utilizar senhas que protejam eficazmente a sua informação pessoal e contas.
 
 Funcionalidades:
 
@@ -34,7 +34,7 @@ Funcionalidades:
 
 # Funcionalidade de Copiar para a Área de Transferência: Copie facilmente a sua senha validada para a área de transferência para uma utilização rápida.
 
-# Gerar passwords com base nos critérios : A partir de um conjunto de caracteres que inclui letras maiúsculas (26), letras minúsculas (26), números (10) e caracteres especiais (30), é possível gerar até 4.205.231.901.698.742.834.534.016.96 de combinações de senhas, tornando tudo mais seguro. A aplicação calcula o número total de combinações possíveis de senhas com base em critérios como comprimento e variedade de caracteres, permitindo uma melhor compreensão da força da sua senha.
+# Gerar passwords com base nos critérios : A partir de um conjunto de caracteres que inclui letras maiúsculas (26), letras minúsculas (26), números (10) e caracteres especiais (30), é possível gerar até 4.205.231.901.698.742.834.534.016.96 de combinações de passwords, tornando tudo mais seguro. A aplicação calcula o número total de combinações possíveis de senhas com base em critérios como comprimento e variedade de caracteres, permitindo uma melhor compreensão da qualidade da sua password.
 
 Esta ferramenta faz parte da nossa iniciativa para promover melhores práticas de segurança e aumentar a consciência sobre a importância de senhas fortes.
 
