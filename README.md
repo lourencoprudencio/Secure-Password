@@ -22,7 +22,7 @@ Join us in making our online presence more secure!
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Bem-vindo ao projeto NOVA Password Segura! Esta aplicação web foi criada para incentivar os membros da comunidade da NOVA School of Business and Economics (NOVA SBE) [ https://www.novasbe.unl.pt/ ] a criar senhas fortes e seguras. Com a crescente importância da cibersegurança, é fundamental utilizar senhas que protejam eficazmente a sua informação pessoal e contas.
+Bem-vindo ao projeto NOVA Password Segura! Esta aplicação web foi criada para incentivar os membros da comunidade da NOVA School of Business and Economics (NOVA SBE) [ https://www.novasbe.unl.pt/ ] a criar passwords fortes e seguras. Com a crescente importância da cibersegurança, é fundamental utilizar passwords que protejam eficazmente a sua informação pessoal e contas.
 
 Funcionalidades:
 
