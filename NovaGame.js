@@ -1,4 +1,4 @@
-//https://github.com/lourencoprudencio/Nova-Secure-Password-Game
+// https://github.com/lourencoprudencio/Nova-Secure-Password-Game
 const passwordInput = document.getElementById("password");
 const usernameInput = document.getElementById("username");
 const resultMessage = document.getElementById("resultMessage");
