@@ -78,10 +78,7 @@ function containsSequentialLetters(input, password) {
     const inputLower = input.toLowerCase().replace(/\s+/g, '').replace(/-/g, '');
     const passwordLower = password.toLowerCase();
 
-    return inputLower.split('').some((_, index) => {
-        const part = inputLower.slice(index, index + 2);
-        return passwordLower.includes(part);
-    });
+    return passwordLower.includes(inputLower);
 }
 
 function toggleCriteria(id, isValid) {
@@ -142,12 +139,12 @@ function updateLanguage(isEnglish) {
         document.getElementById('letter').textContent = '🔴 Contains at least one letter';
         document.getElementById('number').textContent = '🔴 At least one number';
         document.getElementById('uppercase').textContent = '🔴 Includes uppercase and lowercase letters';
-        document.getElementById('noName').textContent = '🔴 Must not contain sequences of letters from the entered name';
+        document.getElementById('noName').textContent = '🔴 It must not contain parts of your name';
         document.getElementById('noCommonSequences').textContent = '🔴 Avoid common sequences (e.g.: 123, ABC)';
         document.getElementById('note').innerHTML = '<strong>Note:</strong> 👀Avoid using previous similar passwords.';
         document.getElementById('note').innerHTML = '<strong>Note:</strong> 👀Avoid using previous similar passwords.<br>📅Avoid using dates associated with yourself (e.g., birth, start of contract).';
         document.getElementById('generatePasswordBtn').textContent = 'Generate Password';
-        document.getElementById('instruction').textContent = "Don't know what password to choose? Click 'Generate password' and then 'Check'.";
+        document.getElementById('instruction').textContent = "Don't know what password to choose? Enter your name click on 'Generate password' and then 'Check'.";
         updateCharCounter();
     } else {
         document.querySelector('h1').textContent = 'NOVA Password Segura';
@@ -162,12 +159,12 @@ function updateLanguage(isEnglish) {
         document.getElementById('letter').textContent = '🔴 Contém pelo menos uma letra';
         document.getElementById('number').textContent = '🔴 Pelo menos um número';
         document.getElementById('uppercase').textContent = '🔴 Inclui letras maiúsculas e minúsculas';
-        document.getElementById('noName').textContent = '🔴 Não pode conter sequências de letras do nome inserido';
+        document.getElementById('noName').textContent = '🔴 Não deve conter partes do seu nome';
         document.getElementById('noCommonSequences').textContent = '🔴 Evite sequências comuns (ex.: 123, ABC)';
         document.getElementById('note').innerHTML = '<strong>Nota:</strong> 👀Evite usar passwords semelhantes às anteriores.';
         document.getElementById('note').innerHTML = '<strong>Nota:</strong> 👀Evite usar passwords semelhantes às anteriores.<br>📅Evite usar datas associadas a si (ex.: Nascimento, início de contrato).';
         document.getElementById('generatePasswordBtn').textContent = 'Gerar Password';
-        document.getElementById('instruction').textContent = "Não sabe que password escolher? Clique em 'Gerar password' e depois 'Verificar'.";
+        document.getElementById('instruction').textContent = "Não sabe que password escolher? Insira o seu nome Clique em 'Gerar password' e depois 'Verificar'.";
         updateCharCounter();
     }
 }
