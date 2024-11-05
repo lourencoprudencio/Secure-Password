@@ -26,17 +26,17 @@ Bem-vindo ao projeto NOVA Password Segura! Esta aplicação web foi criada para 
 
 Funcionalidades:
 
-# Verificador de Qualidade/Nível de Proteção de Senha: Introduza a sua senha desejada e a aplicação irá avaliar o seu nível de proteção/qualidade com base em vários critérios, incluindo comprimento, complexidade e a presença de sequências comuns.
+# Verificador de Qualidade/Nível de Proteção de passwords: Introduza a sua password desejada e a aplicação irá avaliar o seu nível de proteção/qualidade com base em vários critérios, incluindo comprimento, complexidade e a presença de sequências comuns.
 
-# Feedback em Tempo Real: Receba feedback imediato sobre a validade da senha, com indicadores visuais e sugestões para melhorias.
+# Feedback em Tempo Real: Receba feedback imediato sobre a validade da password, com indicadores visuais e sugestões para melhorias.
 
 # Suporte a Idiomas: A aplicação está disponível em inglês e português, tornando-a acessível a um público mais amplo dentro da comunidade da NOVA SBE.
 
-# Funcionalidade de Copiar para a Área de Transferência: Copie facilmente a sua senha validada para a área de transferência para uma utilização rápida.
+# Funcionalidade de Copiar para a Área de Transferência: Copie facilmente a sua password validada para a área de transferência para uma utilização rápida.
 
-# Gerar passwords com base nos critérios : A partir de um conjunto de caracteres que inclui letras maiúsculas (26), letras minúsculas (26), números (10) e caracteres especiais (30), é possível gerar até 4.205.231.901.698.742.834.534.016.96 de combinações de passwords, tornando tudo mais seguro. A aplicação calcula o número total de combinações possíveis de senhas com base em critérios como comprimento e variedade de caracteres, permitindo uma melhor compreensão da qualidade da sua password.
+# Gerar passwords com base nos critérios : A partir de um conjunto de caracteres que inclui letras maiúsculas (26), letras minúsculas (26), números (10) e caracteres especiais (30), é possível gerar até 4.205.231.901.698.742.834.534.016.96 de combinações de passwords, tornando tudo mais seguro. A aplicação calcula o número total de combinações possíveis de passwords com base em critérios como comprimento e variedade de caracteres, permitindo uma melhor compreensão da qualidade da sua password.
 
-Esta ferramenta faz parte da nossa iniciativa para promover melhores práticas de segurança e aumentar a consciência sobre a importância de senhas fortes.
+Esta ferramenta faz parte da nossa iniciativa para promover melhores práticas de segurança e aumentar a consciência sobre a importância de passwords fortes.
 
 Experimente em: NOVA Password Segura [https://novasecurepassword.netlify.app/]
 
