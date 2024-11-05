@@ -2,6 +2,8 @@ Project Description:
 
 Welcome to the NOVA Secure Password project! This web application was created to encourage members of the NOVA School of Business and Economics (NOVA SBE) [ https://www.novasbe.unl.pt/ ] community to create strong and secure passwords. With the growing importance of cybersecurity, it is essential to use passwords that effectively protect your personal information and accounts.
 
+Your privacy and data security are fully guaranteed. This page is completely secure because any information you enter is neither sent to any server nor stored in any location. Each session on the site is unique, and once the session is closed, any entered data is permanently erased and cannot be recovered.
+
 Features:
 
 # Password Quality/Protection Level Checker: Enter your desired password, and the application will evaluate its protection level/quality based on various criteria, including length, complexity, and the presence of common sequences.
@@ -23,6 +25,8 @@ Join us in making our online presence more secure!
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Bem-vindo ao projeto NOVA Password Segura! Esta aplicação web foi criada para incentivar os membros da comunidade da NOVA School of Business and Economics (NOVA SBE) [ https://www.novasbe.unl.pt/ ] a criar passwords fortes e seguras. Com a crescente importância da cibersegurança, é fundamental utilizar passwords que protejam eficazmente a sua informação pessoal e contas.
+
+A sua privacidade e segurança de dados estão totalmente garantidas. Esta página é completamente segura, pois as informações inseridas não são enviadas para nenhum servidor nem armazenadas em nenhum local. Cada sessão no site é única e, ao ser fechada, quaisquer dados introduzidos são apagados de forma permanente e não podem ser recuperados.
 
 Funcionalidades:
 
