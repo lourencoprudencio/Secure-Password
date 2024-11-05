@@ -1,4 +1,4 @@
-// https://github.com/lourencoprudencio/Nova-Secure-Password
+// https://github.com/lourencoprudencio/NOVA-Secure-Password
 
 const passwordInput = document.getElementById("password");
 const usernameInput = document.getElementById("username");
