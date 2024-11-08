@@ -171,7 +171,7 @@ function updateLanguage(isEnglish) {
         document.getElementById('noName').textContent = '🔴 It must not contain parts of your name';
         document.getElementById('noCommonSequences').textContent = '🔴 Avoid common sequences (e.g.: 123, ABC)';
         document.getElementById('note').innerHTML = '<strong>Note:</strong> 👀Avoid using previous similar passwords.';
-        document.getElementById('note').innerHTML = '<strong>Note:</strong> 👀Avoid using previous similar passwords.<br>📅Avoid using dates associated with yourself (e.g., birth, start of contract).';
+        document.getElementById('note').innerHTML = '<strong>Note:</strong> 👀Avoid using previous similar passwords.<br>📅Avoid using dates associated with yourself (e.g., birth, start of contract).<br>🔑Always use two-factor authentication (e.g.: Microsoft Authenticator, Google Authenticator)';
         document.getElementById('generatePasswordBtn').textContent = 'Generate Password';
         document.getElementById('instruction').textContent = "Don't know what password to choose? Enter your name click on 'Generate password' and then 'Check'.";
         updateCharCounter();
@@ -193,7 +193,7 @@ function updateLanguage(isEnglish) {
         document.getElementById('noName').textContent = '🔴 Não deve conter partes do seu nome';
         document.getElementById('noCommonSequences').textContent = '🔴 Evite sequências comuns (ex.: 123, ABC)';
         document.getElementById('note').innerHTML = '<strong>Nota:</strong> 👀Evite usar passwords semelhantes às anteriores.';
-        document.getElementById('note').innerHTML = '<strong>Nota:</strong> 👀Evite usar passwords semelhantes às anteriores.<br>📅Evite usar datas associadas a si (ex.: Nascimento, início de contrato).';
+        document.getElementById('note').innerHTML = '<strong>Nota:</strong> 👀Evite usar passwords semelhantes às anteriores.<br>📅Evite usar datas associadas a si (ex.: Nascimento, início de contrato).<br>🔑Utilize sempre autenticação de 2 fatores (ex.: Microsoft Autenticator, Google Autenticator).';
         document.getElementById('generatePasswordBtn').textContent = 'Gerar Password';
         document.getElementById('instruction').textContent = "Não sabe que password escolher? Insira o seu nome Clique em 'Gerar password' e depois 'Verificar'.";
         updateCharCounter();
