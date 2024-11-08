@@ -3,28 +3,54 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+    <!-- Definição de caracteres e viewport -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Título da página -->
     <title>NOVA Password Segura</title>
+    
+    <!-- Ícone do site -->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Link para o arquivo CSS -->
     <link rel="stylesheet" href="NOVAPassword.css">
 </head>
 <body>
+    <!-- Container principal para o conteúdo da página -->
     <div class="container">
+        
+        <!-- Contêiner para o logotipo, com link externo para o site da NOVA -->
         <div class="logo-container">
             <a href="https://www.novasbe.unl.pt/" target="_blank">
                 <img src="logo.png" alt="Logotipo"></a>
         </div>
+        
+        <!-- Título da página -->
         <h1>NOVA Password Segura</h1>
+        
+        <!-- Switch para alternar entre idiomas -->
         <label class="switch">
-            <input type="checkbox" id="languageToggle">
-            <span class="slider round"></span>
+            <input type="checkbox" id="languageToggle"> <!-- Checkbox para alternar o idioma -->
+            <span class="slider round"></span> <!-- Estilo do switch -->
         </label>
+        
+        <!-- Texto que indica o idioma atual -->
         <span id="languageLabel">English</span>
+        
+        <!-- Campo de texto para o nome -->
         <input type="text" id="username" placeholder="Escreva o seu nome" required>
+        
+        <!-- Campo da password para o utilizador escrever-->
         <input type="password" id="password" placeholder="Escolha uma password" required>
+        
+        <!-- Contador de caracteres da password -->
         <p id="charCounter">0 caracteres</p>
+        
+        <!-- Botão para verificar a password -->
         <button id="checkBtn">Verificar</button>
+        
+        <!-- Lista de critérios para uma password segura -->
         <ul id="criteriaList">
             <li id="length">🔴 Pelo menos 14 caracteres</li>
             <li id="special">🔴 Pelo menos um caractere especial (ex.: @, #, %, &, ?, !)</li>
@@ -34,18 +60,34 @@
             <li id="noName">🔴 Não deve conter partes do seu nome</li>
             <li id="noCommonSequences">🔴 Evite sequências comuns (ex.: 123, ABC)</li>
         </ul>
+        
+        <!-- Nota informativa sobre boas práticas de passwords -->
         <p id="note" class="note"><strong>Nota:</strong> 👀Evite usar passwords semelhantes às anteriores.
         <br>📅Evite usar datas associadas a si (ex.: Nascimento, início de contrato).
         </p>
+        
+        <!-- Informação de gerar password -->
         <p class="note" style="font-weight: bold; color: #000;" id="instruction">
-            Não sabe que password escolher? Insira o seu nome clique em "Gerar password" e depois "Verificar".
+            Não sabe que password escolher? Insira o seu nome, clique em "Gerar password" e depois "Verificar".
         </p>
+        
+        <!-- Botão para gerar uma password automaticamente -->
         <button id="generatePasswordBtn">Gerar Password</button>
+        
+        <!-- Fun fact (curiosidade) sobre segurança de password, inicialmente oculto -->
         <p id="funFact" style="display: none; font-size: 1.1em; color: #ff6347; margin-top: 15px;"></p>
+        
+        <!-- Mensagem de resultado após a verificação da password -->
         <p id="resultMessage"></p>
+        
+        <!-- Mensagem de sucesso que aparece quando a password atende a todos os critérios -->
         <p id="successMessage" style="display: none; font-size: 1.5em; color: #28a745; margin-top: 20px;"></p>
+        
+        <!-- Botão para copiar a password gerada ou escolhida para a área de transferência -->
         <button id="copyBtn" style="display: none;">Copiar password</button>
     </div>
+    
+    <!-- Script JavaScript -->
     <script src="NOVAPassword.js"></script>
 </body>
 </html>
