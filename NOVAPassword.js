@@ -157,7 +157,7 @@ languageToggle.addEventListener('change', function() {
 function updateLanguage(isEnglish) {
     if (isEnglish) {
         document.querySelector('h1').textContent = 'NOVA Secure Password';
-        document.querySelector('input[type="text"]').placeholder = 'Enter your name';
+        document.querySelector('input[type="text"]').placeholder = 'Enter your first name';
         document.querySelector('input[type="password"]').placeholder = 'Enter a password';
         document.getElementById('checkBtn').textContent = 'Check';
         copyBtn.textContent = 'Copy Password';
@@ -179,7 +179,7 @@ function updateLanguage(isEnglish) {
     //Critérios, textos e botões em português
     } else {
         document.querySelector('h1').textContent = 'NOVA Password Segura';
-        document.querySelector('input[type="text"]').placeholder = 'Escreva o seu nome';
+        document.querySelector('input[type="text"]').placeholder = 'Escreva o seu primeiro nome';
         document.querySelector('input[type="password"]').placeholder = 'Escolha uma password';
         document.getElementById('checkBtn').textContent = 'Verificar';
         copyBtn.textContent = 'Copiar Password';
