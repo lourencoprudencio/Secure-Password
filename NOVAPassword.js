@@ -9,7 +9,7 @@ function escapeHtml(input) {
         element.textContent = input;
     }
     const escapedText = element.innerHTML;  // Retorna o texto tratado
-    console.log("Texto tratado:", escapedText);  // Console log do texto depois de tratado
+    console.log("Texto tratado:", escapedText);  // Console log do texto depois de tratado //Pode ser testado ao usar <script>alert('XSS Test');</script>
     return escapedText;
 }
 
