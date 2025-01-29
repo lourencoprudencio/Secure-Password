@@ -1,5 +1,18 @@
 // https://github.com/lourencoprudencio/NOVA-Secure-Password
 
+// Função para tratar tentativas de utilizar caracteres comuns em ataques XSS e evitar ataques
+function escapeHtml(input) {
+    console.log("Texto a ser tratado escapeHtml:", input);  // Console log do texto a ser tratado
+    var element = document.createElement('div');
+    if (input) {
+        element.innerText = input;
+        element.textContent = input;
+    }
+    const escapedText = element.innerHTML;  // Retorna o texto tratado
+    console.log("Texto tratado:", escapedText);  // Console log do texto depois de tratado
+    return escapedText;
+}
+
 // Seleciona os elementos do HTML pelos seus IDs
 const passwordInput = document.getElementById("password");
 const usernameInput = document.getElementById("username");
@@ -68,6 +81,9 @@ function checkPasswordCriteria() {
     const password = passwordInput.value;
     const username = usernameInput.value;
 
+    // Escapa o nome do usuário para evitar XSS
+    const sanitizedUsername = escapeHtml(username);
+
     // Verifica se a password tem pelo menos 14 caracteres
     const lengthValid = password.length >= 14;
     toggleCriteria("length", lengthValid);
@@ -89,7 +105,7 @@ function checkPasswordCriteria() {
     toggleCriteria("uppercase", upperLowerValid);
 
     // Verifica se a password não contém partes do nome
-    const noNameIncluded = !containsSequentialLetters(username, password);
+    const noNameIncluded = !containsSequentialLetters(sanitizedUsername, password);
     toggleCriteria("noName", noNameIncluded);
 
     // Verifica se a password não contém sequências comuns
