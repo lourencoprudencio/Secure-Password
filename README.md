@@ -18,6 +18,8 @@ Features:
 
 # Fun Facts about Secure Passwords: After generating a secure password, learn interesting facts about password security. These fun facts offer valuable insights into why a strong password is important and how it contributes to cybersecurity.
 
+# Protection Against XSS Attacks: This application incorporates security measures to prevent Cross-Site Scripting (XSS) attacks. Any user input, such as names or passwords, is sanitized to ensure that malicious scripts are not executed in the browser. The input data is automatically escaped, converting characters like <, >, and & into their HTML-encoded equivalents (&lt;, &gt;, &amp;), preventing potential attacks.
+
 This tool is part of our initiative to promote better security practices and raise awareness about the importance of strong passwords.
 
 Try it out at: NOVA Secure Password [https://novasecurepassword.netlify.app/]
@@ -43,6 +45,8 @@ Funcionalidades:
 # Gerar passwords com base nos critérios : A partir de um conjunto de caracteres que inclui letras maiúsculas (26), letras minúsculas (26), números (10) e caracteres especiais (30), é possível gerar até 4.205.231.901.698.742.834.534.016.96 de combinações de passwords, tornando tudo mais seguro. A aplicação calcula o número total de combinações possíveis de passwords com base em critérios como comprimento e variedade de caracteres, permitindo uma melhor compreensão da qualidade da sua password.
 
 # Fun Facts sobre Passwords Seguras: Após gerar uma password segura, descubra curiosidades interessantes sobre segurança de passwords. Estes "fun facts" oferecem insights valiosos sobre a importância de uma password segura e como ela contribui para a cibersegurança e a proteção dos dados
+
+# Proteção Contra Ataques XSS: Esta aplicação incorpora medidas de segurança para prevenir ataques Cross-Site Scripting (XSS). Qualquer entrada de dados do utilizador, como nomes ou passwords, é sanitizada para garantir que scripts maliciosos não sejam executados no browser. Os dados de entrada são automaticamente tratados, convertendo caracteres como <, >, e & para as suas versões HTML codificadas (&lt;, &gt;, &amp;), prevenindo ataques potenciais.
 
 Esta ferramenta faz parte da nossa iniciativa para promover melhores práticas de segurança e aumentar a consciência sobre a importância de passwords fortes.
 
