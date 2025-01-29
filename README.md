@@ -14,7 +14,7 @@ Features:
 
 # Copy to Clipboard Functionality: Easily copy your validated password to the clipboard for quick use.
 
-# Generate passwords based on criteria: From a set of characters that includes uppercase letters (26), lowercase letters (26), numbers (10), and special characters (30), it is possible to generate up to 4,205,231,901,698,742,834,534,016.96 password combinations, making everything more secure. The application calculates the total number of possible password combinations based on criteria such as length and character variety, allowing for a better understanding of your password's strength.
+# Generate passwords based on criteria: From a set of characters that includes uppercase letters (26), lowercase letters (26), numbers (10), and special characters (30), it is possible to generate up to 3.111.928.305.110.923.294.648.827.904 password combinations, making everything more secure. The application calculates the total number of possible password combinations based on criteria such as length and character variety, allowing for a better understanding of your password's strength.
 
 # Fun Facts about Secure Passwords: After generating a secure password, learn interesting facts about password security. These fun facts offer valuable insights into why a strong password is important and how it contributes to cybersecurity.
 
@@ -42,7 +42,7 @@ Funcionalidades:
 
 # Funcionalidade de Copiar para a Área de Transferência: Copie facilmente a sua password validada para a área de transferência para uma utilização rápida.
 
-# Gerar passwords com base nos critérios : A partir de um conjunto de caracteres que inclui letras maiúsculas (26), letras minúsculas (26), números (10) e caracteres especiais (30), é possível gerar até 4.205.231.901.698.742.834.534.016.96 de combinações de passwords, tornando tudo mais seguro. A aplicação calcula o número total de combinações possíveis de passwords com base em critérios como comprimento e variedade de caracteres, permitindo uma melhor compreensão da qualidade da sua password.
+# Gerar passwords com base nos critérios : A partir de um conjunto de caracteres que inclui letras maiúsculas (26), letras minúsculas (26), números (10) e caracteres especiais (30), é possível gerar até 3.111.928.305.110.923.294.648.827.904 de combinações de passwords, tornando tudo mais seguro. A aplicação calcula o número total de combinações possíveis de passwords com base em critérios como comprimento e variedade de caracteres, permitindo uma melhor compreensão da qualidade da sua password.
 
 # Fun Facts sobre Passwords Seguras: Após gerar uma password segura, descubra curiosidades interessantes sobre segurança de passwords. Estes "fun facts" oferecem insights valiosos sobre a importância de uma password segura e como ela contribui para a cibersegurança e a proteção dos dados
 
