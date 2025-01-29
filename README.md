@@ -1,6 +1,6 @@
 Project Description:
 
-Welcome to the NOVA Secure Password project! This web application was created to encourage members of the NOVA School of Business and Economics (NOVA SBE) [ https://www.novasbe.unl.pt/ ] community to create strong and secure passwords. With the growing importance of cybersecurity, it is essential to use passwords that effectively protect your personal information and accounts.
+Welcome to the Secure Password project! This web application was created to encourage community to create strong and secure passwords. With the growing importance of cybersecurity, it is essential to use passwords that effectively protect your personal information and accounts.
 
 Your privacy and data security are fully guaranteed. This page is completely secure because any information you enter is neither sent to any server nor stored in any location. Each session on the site is unique, and once the session is closed, any entered data is permanently erased and cannot be recovered.
 
@@ -10,7 +10,7 @@ Features:
 
 # Real-Time Feedback: Receive immediate feedback on the validity of the password, with visual indicators and suggestions for improvements.
 
-# Language Support: The application is available in English and Portuguese, making it accessible to a broader audience within the NOVA SBE community.
+# Language Support: The application is available in English and Portuguese, making it accessible to a broader audience.
 
 # Copy to Clipboard Functionality: Easily copy your validated password to the clipboard for quick use.
 
@@ -22,13 +22,13 @@ Features:
 
 This tool is part of our initiative to promote better security practices and raise awareness about the importance of strong passwords.
 
-Try it out at: NOVA Secure Password [https://novasecurepassword.netlify.app/]
+Try it out at: Secure Password [https://novasecurepassword.netlify.app/]
 
 Join us in making our online presence more secure!
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Bem-vindo ao projeto NOVA Password Segura! Esta aplicação web foi criada para incentivar os membros da comunidade da NOVA School of Business and Economics (NOVA SBE) [ https://www.novasbe.unl.pt/ ] a criar passwords fortes e seguras. Com a crescente importância da cibersegurança, é fundamental utilizar passwords que protejam eficazmente a sua informação pessoal e contas.
+Bem-vindo ao projeto Password Segura! Esta aplicação web foi criada para incentivar os membros da comunidade a criar passwords fortes e seguras. Com a crescente importância da cibersegurança, é fundamental utilizar passwords que protejam eficazmente a sua informação pessoal e contas.
 
 A sua privacidade e segurança de dados estão totalmente garantidas. Esta página é completamente segura, pois as informações inseridas não são enviadas para nenhum servidor nem armazenadas em nenhum local. Cada sessão no site é única e, ao ser fechada, quaisquer dados introduzidos são apagados de forma permanente e não podem ser recuperados.
 
@@ -38,7 +38,7 @@ Funcionalidades:
 
 # Feedback em Tempo Real: Receba feedback imediato sobre a validade da password, com indicadores visuais e sugestões para melhorias.
 
-# Suporte a Idiomas: A aplicação está disponível em inglês e português, tornando-a acessível a um público mais amplo dentro da comunidade da NOVA SBE.
+# Suporte a Idiomas: A aplicação está disponível em inglês e português, tornando-a acessível a um público mais amplo.
 
 # Funcionalidade de Copiar para a Área de Transferência: Copie facilmente a sua password validada para a área de transferência para uma utilização rápida.
 
@@ -50,6 +50,6 @@ Funcionalidades:
 
 Esta ferramenta faz parte da nossa iniciativa para promover melhores práticas de segurança e aumentar a consciência sobre a importância de passwords fortes.
 
-Experimente em: NOVA Password Segura [https://novasecurepassword.netlify.app/]
+Experimente em: Password Segura [https://novasecurepassword.netlify.app/]
 
 Junte-se a nós para tornar a nossa presença online mais segura!
