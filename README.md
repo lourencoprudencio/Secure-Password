@@ -22,7 +22,7 @@ Features:
 
 This tool is part of our initiative to promote better security practices and raise awareness about the importance of strong passwords.
 
-Try it out at: Secure Password [https://novasecurepassword.netlify.app/]
+Try it out at: Secure Password [https://securepasswordprudencio.netlify.app]
 
 Join us in making our online presence more secure!
 
@@ -50,6 +50,6 @@ Funcionalidades:
 
 Esta ferramenta faz parte da nossa iniciativa para promover melhores práticas de segurança e aumentar a consciência sobre a importância de passwords fortes.
 
-Experimente em: Password Segura [https://novasecurepassword.netlify.app/]
+Experimente em: Password Segura [https://securepasswordprudencio.netlify.app]
 
 Junte-se a nós para tornar a nossa presença online mais segura!
