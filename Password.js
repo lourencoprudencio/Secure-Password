@@ -1,4 +1,4 @@
-// https://github.com/lourencoprudencio/NOVA-Secure-Password
+// https://github.com/lourencoprudencio/Secure-Password
 
 // Função para tratar tentativas de utilizar caracteres comuns em ataques XSS e evitar ataques
 function escapeHtml(input) {
