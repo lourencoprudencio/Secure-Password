@@ -18,7 +18,7 @@ Features:
 
 # Fun Facts about Secure Passwords: After generating a secure password, learn interesting facts about password security. These fun facts offer valuable insights into why a strong password is important and how it contributes to cybersecurity.
 
-# Protection Against XSS Attacks: This application incorporates security measures to prevent Cross-Site Scripting (XSS) attacks. Any user input, such as names or passwords, is sanitized to ensure that malicious scripts are not executed in the browser. The input data is automatically escaped, converting characters like <, >, and & into their HTML-encoded equivalents &lt;, &gt;, &amp;, preventing potential attacks.
+# Protection Against XSS Attacks: This application incorporates security measures to prevent Cross-Site Scripting (XSS) attacks. Any user input, such as names or passwords, is sanitized to ensure that malicious scripts are not executed in the browser. The input data is automatically escaped, converting characters like <, >, and & into their HTML-encoded equivalents & lt;, & gt;, & amp;, preventing potential attacks.
 
 This tool is part of our initiative to promote better security practices and raise awareness about the importance of strong passwords.
 
