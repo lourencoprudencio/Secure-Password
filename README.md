@@ -46,7 +46,7 @@ Funcionalidades:
 
 # Fun Facts sobre Passwords Seguras: Após gerar uma password segura, descubra curiosidades interessantes sobre segurança de passwords. Estes "fun facts" oferecem insights valiosos sobre a importância de uma password segura e como ela contribui para a cibersegurança e a proteção dos dados
 
-# Proteção Contra Ataques XSS: Esta aplicação incorpora medidas de segurança para prevenir ataques Cross-Site Scripting (XSS). Qualquer entrada de dados do utilizador, como nomes ou passwords, é sanitizada para garantir que scripts maliciosos não sejam executados no browser. Os dados de entrada são automaticamente tratados, convertendo caracteres como <, >, e & para as suas versões HTML codificadas (& lt; & gt; & amp;), prevenindo ataques potenciais.
+# Proteção Contra Ataques XSS: Esta aplicação incorpora medidas de segurança para prevenir ataques Cross-Site Scripting (XSS). Qualquer entrada de dados do utilizador, como nomes ou passwords, é sanitizada para garantir que scripts maliciosos não sejam executados no browser. Os dados de entrada são automaticamente tratados, convertendo caracteres como <, >, e & para as suas versões HTML codificadas (& lt; & gt; & amp;), prevenindo potenciais ataques.
 
 Esta ferramenta faz parte da nossa iniciativa para promover melhores práticas de segurança e aumentar a consciência sobre a importância de passwords fortes.
 
