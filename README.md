@@ -26,6 +26,10 @@ Try it out at: Secure Password [https://securepasswordprudencio.netlify.app]
 
 Join us in making our online presence more secure!
 
+## 📜 License
+
+This project is available under the **GNU** license. You are free to use, modify and distribute it as long as you comply with the terms of the license.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Bem-vindo ao projeto Password Segura! Esta aplicação web foi criada para incentivar os membros da comunidade a criar passwords fortes e seguras. Com a crescente importância da cibersegurança, é fundamental utilizar passwords que protejam eficazmente a sua informação pessoal e contas.
@@ -53,3 +57,7 @@ Esta ferramenta faz parte da nossa iniciativa para promover melhores práticas d
 Experimente em: Password Segura [https://securepasswordprudencio.netlify.app]
 
 Junte-se a nós para tornar a nossa presença online mais segura!
+
+## 📜 License
+
+Este projeto está disponível sob a licença **GNU**. O utilizador é livre para utilizá-lo, modificá-lo e distribuí-lo, desde que cumpra os termos da licença.
